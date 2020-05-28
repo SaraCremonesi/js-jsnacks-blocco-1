@@ -27,20 +27,40 @@
 // };
 
 // TERZO MODO
-var array = ['pippo' , 'paperino' , 'pluto' , 'minnie' , 'daisy'];
-var name = prompt('Inserisci il tuo nome');
-var invitato = false;
-var messaggio = alert('Accesso Negato');
+// var array = ['pippo' , 'paperino' , 'pluto' , 'minnie' , 'daisy'];
+// var name = prompt('Inserisci il tuo nome');
+// var invitato = false;
+// var messaggio = 'Accesso Negato';
+//
+// var i=0;
+// while (invitato === false && i < array.length) {
+//   if (name === array[i]) {
+//       invitato = true;
+//       messaggio = 'Accesso Consentito';
+//     }
+//   i++;
+// };
+//
+// alert(messaggio);
 
-var i=0;
-while (invitato === false && i < array.length) {
-  if (name === array[i]) {
-      invitato = true;
-      messaggio = alert('Accesso consentito');
-    }
-  i++;
-};
-
+// QUARTO MODO
+// var array = ['pippo' , 'paperino' , 'pluto' , 'minnie' , 'daisy'];
+// var name = prompt('Inserisci il tuo nome');
+// var invitato = false;
+//
+// var i=0;
+// while (invitato === false && i < array.length) {
+//   if (name === array[i]) {
+//       invitato = true;
+//     }
+//   i++;
+// };
+//
+// if (invitato === true) {
+//   alert('Accesso Consentito');
+// } else {
+//   alert('Accesso Negato');
+// };
 
 // ***************ESERCIZIO SOMMA*******************
 // PRIMO MODO
@@ -57,6 +77,18 @@ while (invitato === false && i < array.length) {
 //   somma = somma + parseInt(arrayNumeri[i]);
 // }
 //
-// console.log(somma);
+// alert(somma);
 
 // SECONDO MODO
+// do {
+//   var numero = prompt('Inserisci un numero di quattro cifre');
+// } while ((isNaN(numero)) || (numero.length != 4));
+//
+// var arrayNumeri = numero.split('');
+//
+// var somma = 0;
+// for (var i = 0; i < arrayNumeri.length; i++) {
+//   somma += parseInt(arrayNumeri[i]);
+// };
+//
+// alert(somma);
