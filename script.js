@@ -1,5 +1,5 @@
 
-// ***************ESERCIZIO FESTA GATSBY*******************
+// ***************JSNACK 4*******************
 // PRIMO MODO
 // var array = ['pippo' , 'paperino' , 'pluto' , 'minnie' , 'daisy'];
 // var name = prompt('Inserisci il tuo nome');
@@ -62,7 +62,7 @@
 //   alert('Accesso Negato');
 // };
 
-// ***************ESERCIZIO SOMMA*******************
+// ***************JSNACK 5*******************
 // PRIMO MODO
 // var numero = prompt('Inserisci un numero di quattro cifre');
 //
@@ -75,7 +75,7 @@
 // var somma = 0;
 // for (var i = 0; i < arrayNumeri.length; i++) {
 //   somma = somma + parseInt(arrayNumeri[i]);
-// }
+// };
 //
 // alert(somma);
 
@@ -92,3 +92,5 @@
 // };
 //
 // alert(somma);
+
+// *************** *******************
