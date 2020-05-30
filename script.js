@@ -13,20 +13,37 @@
 // };
 
 // ***************JSNACK 2*******************
- var firstWord = prompt('Inserisci una parola');
- var secondWord = prompt('Inserisci una parola');
+// do {
+//   var firstWord = prompt('Inserisci una parola');
+//   var secondWord = prompt('Inserisci una parola');
+// } while (!isNaN(firstWord) && firstWord != '' && !isNaN(secondWord) && secondWord != '')
+//
+//  if (firstWord.length < secondWord.length) {
+//    console.log(firstWord , secondWord);
+//  } else if (firstWord.length > secondWord.length) {
+//    console.log(secondWord , firstWord);
+//  } else {
+//    console.log('Le parole inserte hanno la stessa lunghezza');
+//  };
 
- while (isNaN(firstWord) && firstWord != '' && isNaN(secondWord) && secondWord != '') {
-   if (firstWord.length < secondWord.length) {
-     alert(firstWord);
-     alert(secondWord);
-   } else if (firstWord.length > secondWord.length) {
-     alert(secondWord);
-     alert(firstWord);
-   } else {
-     alert('Le parole inserte hanno la stessa lunghezza');
-   }
- };
+ // ***************JSNACK 3*******************
+ // PRIMO MODO
+// var somma = 0;
+// for (var i = 0; i < 5; i++) {
+//   var numero = parseInt(prompt('Inserisci un numero'));
+//   somma += parseInt(numero);
+//   };
+// console.log(somma);
+
+// SECONDO MODO
+// var i = 0;
+// var somma = 0;
+// while (i < 5) {
+//   var numero = parseInt(prompt('Inserisci un numero'));
+//   somma += parseInt(numero);
+//   i++;
+// };
+// console.log(somma);
 
 // ***************JSNACK 4*******************
 // PRIMO MODO
@@ -99,7 +116,7 @@
 //   numero = prompt('Inserisci un numero di quattro cifre')
 // };
 //
-// var arrayNumeri = numero.split('');
+// var arrayNumeri = numero.split('');   .split() per trasformare una variabile in array
 //
 // var somma = 0;
 // for (var i = 0; i < arrayNumeri.length; i++) {
