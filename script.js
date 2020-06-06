@@ -140,16 +140,20 @@
 // alert(somma);
 
 // ***************JSNACK 6*******************
-var n = parseInt(prompt('Inserisci un numero'));
-console.log(n);
-for (var i = 0; i < n; i++) {
-  var array = [];
-  for (var j = 0; j < 10; j++) {
-    var numeroCasuale = Math.floor(Math.random() * 100 + 1);
-    array.push(numeroCasuale);
-  }
-  console.log(array);
-};
+// var n = parseInt(prompt('Inserisci un numero'));
+// while (isNaN(n)) {
+//   n = parseInt(prompt('Errore. Inserisci un numero'));
+// };
+// console.log('Il numero inserito è:' , n);
+//
+//   for (var i = 0; i < n; i++) {
+//     var array = [];
+//     for (var j = 0; j < 10; j++) {
+//       var numeroCasuale = Math.floor(Math.random() * 100 + 1);
+//       array.push(numeroCasuale);
+//     }
+//     console.log(array);
+//   };
 
 //***************JSNACK 7*******************
 // var arrayNomiInvitati = ['Joe', 'Abramo', 'Pinco'];
