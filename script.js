@@ -158,9 +158,9 @@
 //***************JSNACK 7*******************
 // var arrayNomiInvitati = ['Joe', 'Abramo', 'Pinco'];
 // var arrayCognomiInvitati = ['Black', 'Lincoln', 'Pallo'];
-// var listaIdentitaCasuali = [];
 //
-// for (var i = 0; i < arrayNomiInvitati.length; i++) {
+// var listaIdentitaCasuali = [];
+// for (var i = 0; i < arrayCognomiInvitati.length; i++) {
 //   var indiceNomeCasuale = Math.floor(Math.random() * arrayNomiInvitati.length);
 //   var nomeCasuale = arrayNomiInvitati[indiceNomeCasuale];
 //
@@ -205,3 +205,23 @@
 //     odd.innerHTML += arrayNumeri[i] + '<br>'
 //   };
 // };
+
+//***************JSNACK 10*******************
+// var arrayNumeri = [];
+// var somma = somma(arrayNumeri);
+//
+// while (somma < 50) {
+//   var numeroUtente = parseInt(prompt('Inserisci un numero'));
+//   arrayNumeri.push(numeroUtente);
+//   somma += numeroUtente;
+// }
+//
+// console.log('Hai raggiunto la somma: ' + somma);
+//
+// function somma(array) {
+//   var somma = 0;
+//   for (var i = 0; i < array.length; i++) {
+//     somma += parseInt(array[i]);
+//   }
+//   return somma;
+// }
