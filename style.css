@@ -1,0 +1,50 @@
+/* .main-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  height: calc(100% - 70px);
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: green;
+}
+
+.main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-content {
+  float: left;
+  background-color: purple;
+  height: 100%;
+  width: calc(100% - 300px);
+}
+
+.left-bar {
+  width: 300px;
+  height: 100%;
+  background-color: grey;
+  float: left;
+}
+
+.top-bar {
+ width: 100%;
+ height: 100px;
+ background-color: yellow;
+} */
+
+/***** SNACK 3 05/06 *****/
+/* #red-odd {
+  color: red;
+}
+
+#green-even {
+  color: green;
+} */
